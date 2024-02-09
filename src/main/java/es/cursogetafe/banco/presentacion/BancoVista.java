@@ -13,8 +13,7 @@ public class BancoVista implements BancoVistaInterface{
 		bancoNegocio  = new BancoNegocio();
 	}
 
-	public void iniciarAplicacion() 
-	{
+	public void iniciarAplicacion() {
 		Scanner teclado = new Scanner(System.in);
 
 		System.out.println("TRANSFERENCIA");

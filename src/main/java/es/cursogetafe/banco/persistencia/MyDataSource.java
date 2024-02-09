@@ -18,7 +18,7 @@ public abstract class MyDataSource {
 			ds = new BasicDataSource();
 			Properties prop = new Properties();
 			try {
-				prop.load(new FileReader("src/bbdd.properties"));
+				prop.load(new FileReader("src/main/java/bbdd.properties"));
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			} catch (IOException e) {

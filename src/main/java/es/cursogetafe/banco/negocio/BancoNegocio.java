@@ -10,6 +10,7 @@ public class BancoNegocio implements BancoNegocioInterface {
 		bancoDao = new BancoDao();
 	}
 
+//	este metodo debe ser transaccional
 	public void transferencia(long dni1, long dni2, double cantidad) {
 		System.out.println("Inicio de la transferencia");
 		bancoDao.cambiarSaldo(dni1, cantidad);
